@@ -1,0 +1,52 @@
+*{
+    width:1700px;
+}
+.container {
+
+    display: flex;
+    
+    flex-direction: column;
+    
+    height: 100vh;
+    
+    }
+    
+    .middle-container {
+    
+    display: flex;
+    
+    flex: 1;
+    
+    }
+    
+    app-top, app-bottom {
+    
+    background-color: #3498db;
+    
+    color: white;
+    
+    text-align: center;
+    
+    padding: 15px;
+    
+    }
+    
+    app-left, app-right {
+    
+    background-color: #f1c40f;
+    
+    width: 20%;
+    
+    padding: 15px;
+    
+    }
+    
+    app-main {
+    
+    background-color: #2ecc71;
+    
+    flex: 1;
+    
+    padding: 15px;
+    
+    }

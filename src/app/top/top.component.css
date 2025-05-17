@@ -1,0 +1,8 @@
+#mynav{
+    
+    justify-content:space-evenly ;
+}
+a{
+    display:inline-block;
+    margin-right:90px;
+}
